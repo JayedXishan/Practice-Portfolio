@@ -10,6 +10,9 @@ body{
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -19,6 +22,7 @@ nav{
 }
 nav >ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -36,4 +40,13 @@ nav a{
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* Header style */
+.header-container{
+    background: #FFF8F3;
 }
