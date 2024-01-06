@@ -1,0 +1,39 @@
+/*shared*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-text{
+    color: #FD6E0A;
+}
+/*nav*/
+
+nav{
+    display: flex;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn-style{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+}
