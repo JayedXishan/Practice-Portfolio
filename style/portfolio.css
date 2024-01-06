@@ -69,6 +69,9 @@ nav a{
     padding: 30px;
     width: 500px;
 }
+.banner-items p{
+    margin-bottom: 15px;
+}
 .banner-greeting{
     color: var(--Dark-02, #474747);
     font-size: 45px;
@@ -98,11 +101,10 @@ nav a{
 
 /*About Me*/
 .about-me{
-    width: 1140px;
-    height: 550px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin-left: 130px 430px;
+    margin: 120px 170px;
+    padding: 155px 130px;
 }
 .about-heading{
     color: var(--Dark-01, #181818);
@@ -114,5 +116,69 @@ nav a{
     color: var(--Dark-03, #757575);
     text-align: center;
     font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+.about-foot-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+.about-foot h3{
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    font-weight: 700;
+}
+.about-foot p{
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/*My jobs */
+
+.myjob{
+    margin: 0px 80px;
+    padding: 30px 80px;
+}
+.myjob-heading{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.myjob-paragraph{
+    margin-bottom: 50px;
+    padding: 0px 100px;
+    text-align: center;
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;  
+}
+.cart-container{
+    display:flex;
+    justify-content: space-between;
+}
+.cart{
+    width: 170px;
+    height: 270px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.cart h3{
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.cart p{
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
     font-weight: 400;
 }
